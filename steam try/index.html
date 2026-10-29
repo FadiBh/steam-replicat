@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="maincss.css">
+    <title>Steam</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-inner">
+            <div class="logo">
+                <img src="logosteam.webp" alt="steam logo" width="40" height="40">
+                <div id="steamword">STEAM</div>
+            </div>
+
+            <div class="words">
+                <div>Store</div>
+                <div>Community</div>
+                <div>About</div>
+                <div>Support</div>
+            </div>
+
+            <div class="search">
+                <input type="text" placeholder="search the store">
+                <div class="search-btn"><img src="searchicon.png" alt="search" width="18" height="18"></div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="hero">
+            <img src="halowen.webp" alt="Halloween sale">
+        </div>
+
+        <section class="featured">
+            <h2 class="section-title">Featured &amp; Recommended</h2>
+
+            <div class="carousel">
+
+                
+                <input type="radio" name="slide" id="s1" checked>
+                <input type="radio" name="slide" id="s2">
+                <input type="radio" name="slide" id="s3">
+
+                <div class="slides">
+
+                    
+                    <div class="slide"
+                         style="--preset: url(remain.jpg);
+                                --s1: url(re1.webp);
+                                --s2: url(re2.webp);
+                                --s3: url(re3.jpg);
+                                --s4: url(re3r.jpg);">
+                        <div class="main"></div>
+                        <div class="side">
+                            <h3 class="game-title">Resident Evil 4</h3>
+                            <div class="shots">
+                                <div class="t t1"></div>
+                                <div class="t t2"></div>
+                                <div class="t t3"></div>
+                                <div class="t t4"></div>
+                            </div>
+                            <div class="tags">Action, Adventure, Horror</div>
+                            <div class="price">$29.99</div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="slide"
+                         style="--preset: url(rdrmain.jpg);
+                                --s1: url(rdr1.webp);
+                                --s2: url(rdr2.webp);
+                                --s3: url(rdr3.jpg);
+                                --s4: url(rdr4.avif);">
+                        <div class="main"></div>
+                        <div class="side">
+                            <h3 class="game-title">Red Dead Redemption 2</h3>
+                            <div class="shots">
+                                <div class="t t1"></div>
+                                <div class="t t2"></div>
+                                <div class="t t3"></div>
+                                <div class="t t4"></div>
+                            </div>
+                            <div class="tags">RPG, Open World</div>
+                            <div class="price">$19.99</div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="slide"
+                         style="--preset: url(ermain.jpg);
+                                --s1: url(er1.jpg);
+                                --s2: url(er2.jpg);
+                                --s3: url(er3.jpg);
+                                --s4: url(er4.jpg);">
+                        <div class="main"></div>
+                        <div class="side">
+                            <h3 class="game-title">Elden Ring</h3>
+                            <div class="shots">
+                                <div class="t t1"></div>
+                                <div class="t t2"></div>
+                                <div class="t t3"></div>
+                                <div class="t t4"></div>
+                            </div>
+                            <div class="tags">Open world, Action, Adventure</div>
+                            <div class="price">$49.99</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="dots">
+                    <label for="s1"></label>
+                    <label for="s2"></label>
+                    <label for="s3"></label>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
